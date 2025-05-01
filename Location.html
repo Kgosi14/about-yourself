@@ -36,16 +36,27 @@
 <body>
  <h5>You successfully purchased your stamps. Please provide your location and residential address below for delivery and communication.</h5>
    
-    <p>Mobile number</p>
- <input type="integer" placeholder="Number" style="margin:5px; padding:8px;"><br>
-    <p>Email address</p>
- <input type="email" placeholder="Email Address" style="margin:5px; padding:8px;width:450px"><br>
-    <p>City/town</p>
- <input type="text" placeholder="City/town" style="margin:5px; padding:8px;"><br>
-    <p>Plot number</p>
- <input type="integer" placeholder="Plot number" style="margin:5px; padding:8px;"><br>
-    <p>Additional clarification of Location</p>
+ <!-- Feedback form -->
+<form action="https://formspree.io/f/mnndjlje" method="POST"
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name" required><br><br>
+<label for="number">number</label><br>
+<input type="number" id="number" name="number" required><br><br>
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email" required><br><br>
+<label for="City/town">City/town:</label><br>
+<input type="text" id="name" name="City/town" required><br><br>
+<label for="Plot number">Plot number</label><br>
+<input type="number" id="number" name="Plot number" required><br><br>
+<label for="Additional Clarification of Location">Additional Clarification of Location:</label><br>
+<textarea id="message" name="Additional Clarification of Location" rows="5" required></textarea><br><br>
+<button type="submit" class="btn btn-primary">Save</button>
+</form>
+      }
+  </style>
   
+</head>
+
 
 </body>
 
