@@ -30,7 +30,7 @@
 <a class="nav-link" href="Products.html">Products</a>
 </li>
 <li class="nav-item">
-<a class="nav-link" href="Cart.html">Cart</a>
+<a class="nav-link" href="Purchse.html">Purchase</a>
 </li>
  <li class="nav-item">
 <a class="nav-link" href="about.html">Terms of service</a>
@@ -45,29 +45,40 @@
 </div>
 </div>
 </nav>
-<h3>Terms of Service</h3>
+<h3>Your Purchase</h3>
 <nav>
 </nav>
 </header>
 
 <body>
- <h4>Warranty</h4>
- <p>Our stamps are returnable within 2 weeks of purchase, beyond that the customer should purchase new one/s.</p>
+    <h5>Please type in the type of stamps as well as the amount of stamps you want to buy.</h5>
+<!-- Feedback form -->
+<form action="https://formspree.io/f/mnndjlje" method="POST"
+<label for="message"></label><br>
+<textarea id="message" name="message" rows="5" required></textarea><br><br>
+<button type="submit" class="btn btn-primary">submit</button>
+</form>
 
- <h4>Refunds</h4>
-<p>There are no refunds. If a stamp/s are bought damaged, they can only be replaced</p>
-
- <h4>Intellectual property</h4>
- <p>Content previewed in this website,that may include logos, text and product images is the company's intellectual property and should not be used without permission.</p>
-
- <h4>Privacy policy</h4>
- <p>The customer's personal information is collected, safely stored and processed.</p>
-
- <h4>Delivery</h4>
- <p>Delivery orders are carried out during business days. Duration of deliveryvary based on the location of delivery. The company is not responsible for lost deliveries due to incorrect delivery locations and details.</p>
-
- <h4>Orders and Payments</h4>
+    
+ <h5 style="padding: 20px;">For payment,please do any of the following</h5>
+ <ul>
+ <li>Send money to acc no 6873876367(FNB)</li>
+ <li>Transfer money via pay2cell to 71206457;refence Kelly Phuthego(FNB)</li>
+ <li>For non FNB users,send money via ewallet to 71206457</li>
+ </ul>
+ 
+ 
+ <input type="file" id="imageInput" accept="image/*">
+  <div>
+    <img id="preview" src="" alt="Image Preview" style="display: none;">
+  </div>
 </body>
+
+<body>
+ <button onclick="window.location.href='Location.html';">Continue</button>
+</body>
+
+
 
  <footer>&copy;impressedconceptsventures.com</footer>
 </html>
